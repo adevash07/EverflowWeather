@@ -46,75 +46,97 @@
         }
       },
       {
-        "HashCode": 1617431381,
+        "HashCode": -1305888906,
         "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Components.WeatherCard",
+        "Name": "EverFlowWeather.Shared.SurveyPrompt",
         "AssemblyName": "EverFlowWeather",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "WeatherCard"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Components.WeatherCard",
-          "Common.TypeNameIdentifier": "WeatherCard",
-          "Common.TypeNamespace": "EverFlowWeather.Components",
+          "Common.TypeName": "EverFlowWeather.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "EverFlowWeather.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": -1012368711,
+        "HashCode": -577475987,
         "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Components.WeatherCard",
+        "Name": "EverFlowWeather.Shared.SurveyPrompt",
         "AssemblyName": "EverFlowWeather",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EverFlowWeather.Components.WeatherCard"
+            "TagName": "EverFlowWeather.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Components.WeatherCard",
-          "Common.TypeNameIdentifier": "WeatherCard",
-          "Common.TypeNamespace": "EverFlowWeather.Components",
+          "Common.TypeName": "EverFlowWeather.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "EverFlowWeather.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 728206538,
+        "HashCode": -597852016,
         "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Components.Banner",
+        "Name": "EverFlowWeather.Shared.NavMenu",
         "AssemblyName": "EverFlowWeather",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Banner"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Components.Banner",
-          "Common.TypeNameIdentifier": "Banner",
-          "Common.TypeNamespace": "EverFlowWeather.Components",
+          "Common.TypeName": "EverFlowWeather.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "EverFlowWeather.Shared",
           "Runtime.Name": "Components.IComponent"
         }
       },
       {
-        "HashCode": 1697490875,
+        "HashCode": -1756650006,
         "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Components.Banner",
+        "Name": "EverFlowWeather.Shared.NavMenu",
         "AssemblyName": "EverFlowWeather",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EverFlowWeather.Components.Banner"
+            "TagName": "EverFlowWeather.Shared.NavMenu"
           }
         ],
         "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Components.Banner",
-          "Common.TypeNameIdentifier": "Banner",
-          "Common.TypeNamespace": "EverFlowWeather.Components",
+          "Common.TypeName": "EverFlowWeather.Shared.NavMenu",
+          "Common.TypeNameIdentifier": "NavMenu",
+          "Common.TypeNamespace": "EverFlowWeather.Shared",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
@@ -226,102 +248,6 @@
         }
       },
       {
-        "HashCode": -1305888906,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Shared.SurveyPrompt",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "EverFlowWeather.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -577475987,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Shared.SurveyPrompt",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EverFlowWeather.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "EverFlowWeather.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -597852016,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Shared.NavMenu",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "EverFlowWeather.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1756650006,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Shared.NavMenu",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EverFlowWeather.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Shared.NavMenu",
-          "Common.TypeNameIdentifier": "NavMenu",
-          "Common.TypeNamespace": "EverFlowWeather.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 112741316,
         "Kind": "Components.Component",
         "Name": "EverFlowWeather.Pages.Index",
@@ -354,6 +280,80 @@
           "Common.TypeName": "EverFlowWeather.Pages.Index",
           "Common.TypeNameIdentifier": "Index",
           "Common.TypeNamespace": "EverFlowWeather.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1617431381,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.Components.WeatherCard",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WeatherCard"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.Components.WeatherCard",
+          "Common.TypeNameIdentifier": "WeatherCard",
+          "Common.TypeNamespace": "EverFlowWeather.Components",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1012368711,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.Components.WeatherCard",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EverFlowWeather.Components.WeatherCard"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.Components.WeatherCard",
+          "Common.TypeNameIdentifier": "WeatherCard",
+          "Common.TypeNamespace": "EverFlowWeather.Components",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 728206538,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.Components.Banner",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Banner"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.Components.Banner",
+          "Common.TypeNameIdentifier": "Banner",
+          "Common.TypeNamespace": "EverFlowWeather.Components",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1697490875,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.Components.Banner",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EverFlowWeather.Components.Banner"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.Components.Banner",
+          "Common.TypeNameIdentifier": "Banner",
+          "Common.TypeNamespace": "EverFlowWeather.Components",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
