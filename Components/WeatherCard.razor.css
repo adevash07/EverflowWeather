@@ -3,7 +3,9 @@
   height: 100%;
   display: flex;
   flex-flow: column wrap;
-  gap: 1rem;
+  background-color: var(--primary-light);
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .weatherCard__dateTitle {
@@ -20,4 +22,18 @@
   gap: 1rem;
   justify-self: center;
   align-self: center;
+}
+
+.weatherCard__weatherImg img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.weatherCard__weatherTemp {
+  font-size: var(--h2);
+  margin: 0;
+}
+
+.weatherCard__weatherDesc {
+  font-size: var(--h4);
 }
