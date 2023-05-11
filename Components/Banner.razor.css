@@ -21,3 +21,61 @@
   align-items: center;
   max-width: 720px;
 }
+
+.banner__right {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 2rem;
+}
+
+.banner__item--1 {
+  flex: 1 1 100%;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+
+.banner__title {
+  font-size: var(--h2);
+}
+
+.banner__dates {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.banner__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+.banner__gridItem {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconCon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  padding: 0.1rem;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: white;
+  font-size: 1.5rem;
+}

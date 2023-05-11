@@ -1,0 +1,23 @@
+.weatherCard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+
+.weatherCard__dateTitle {
+  font-size: var(--h2);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary);
+  color: white;
+}
+
+.weatherCard__weather {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+  justify-self: center;
+  align-self: center;
+}
