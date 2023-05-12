@@ -50,6 +50,7 @@ Follow these steps to set up the app in Visual Studio Code:
 ```
 
 6. Start the server project by pressing `F5` or selecting "Debug" > "Start Debugging" from the menu. This will start the server project and watch for any changes in the code.
+
 7. Launch the Blazor app in your browser by opening the `launch.json` file again and adding the following configuration:
 
 ```json

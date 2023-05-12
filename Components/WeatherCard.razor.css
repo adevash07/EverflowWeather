@@ -37,3 +37,12 @@
 .weatherCard__weatherDesc {
   font-size: var(--h4);
 }
+
+.weatherCard.forecast {
+  background-color: whitesmoke;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.weatherCard.forecast:hover {
+  background-color: var(--primary-light);
+}
