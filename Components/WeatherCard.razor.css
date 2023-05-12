@@ -1,0 +1,48 @@
+.weatherCard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: var(--primary-light);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.weatherCard__dateTitle {
+  font-size: var(--h2);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary);
+  color: white;
+}
+
+.weatherCard__weather {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.weatherCard__weatherImg img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.weatherCard__weatherTemp {
+  font-size: var(--h2);
+  margin: 0;
+}
+
+.weatherCard__weatherDesc {
+  font-size: var(--h4);
+}
+
+.weatherCard.forecast {
+  background-color: whitesmoke;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.weatherCard.forecast:hover {
+  background-color: var(--primary-light);
+}

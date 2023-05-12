@@ -20,14 +20,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/debugger/Desktop/blazor/EverFlowWeather/Components/Banner.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9CYW5uZXIucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/debugger/Desktop/blazor/EverFlowWeather/Components/WeatherCard.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9XZWF0aGVyQ2FyZC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/debugger/Desktop/blazor/EverFlowWeather/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -39,6 +31,18 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/debugger/Desktop/blazor/EverFlowWeather/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/debugger/Desktop/blazor/EverFlowWeather/Components/Banner.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9CYW5uZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ze890orcia
+
+[/Users/debugger/Desktop/blazor/EverFlowWeather/Components/ForeCast.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Gb3JlQ2FzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-k1iqbjn3ug
+
+[/Users/debugger/Desktop/blazor/EverFlowWeather/Components/WeatherCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9XZWF0aGVyQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-3r785h1ndd
 
 [/Users/debugger/Desktop/blazor/EverFlowWeather/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=

@@ -1,0 +1,16 @@
+.forecast {
+  margin-top: 2rem;
+}
+
+.forecast__grid {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.weatherCard:active {
+  background-color: aliceblue;
+}

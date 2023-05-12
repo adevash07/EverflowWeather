@@ -1,0 +1,12 @@
+<div class="forecast container-fluid">
+    <div class="forecast__grid container-lg">
+        @foreach (var item in arr)
+        {
+        <WeatherCard customClass="forecast" />
+        }
+    </div>
+</div>
+
+@code {
+    private int[] arr = new int[4];
+}
