@@ -1,0 +1,14 @@
+@using Microsoft.AspNetCore.Components;
+
+<CascadingValue Value="@AppState">
+    @ChildContent
+</CascadingValue>
+
+@code {
+ // Define a parameter to receive the child content from the parent component
+ [Parameter]
+ public RenderFragment? ChildContent { get; set; }
+
+ public AppState? AppState { get; set; }
+
+}

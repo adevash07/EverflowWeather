@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KWunk+/u3CKBHDKfdAa4NpVTMnfzXWcgy1Py6T9D640YMrCUGA9o2pIgyjjqlW+7FM8pNuwxm2Kla5yba++npg==",
+  "dgSpecHash": "TKyiSA0FZPadK2C49LEOHullnJNnD3AgDc4PWt5VqWWVGOLl3ygpQKR2LGKr4w3xwGL0HdYKMaajgCHS/k/jVQ==",
   "success": true,
   "projectFilePath": "/Users/debugger/Desktop/blazor/EverFlowWeather/EverFlowWeather.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "/Users/debugger/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.jsinterop/7.0.5/microsoft.jsinterop.7.0.5.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.jsinterop.webassembly/7.0.5/microsoft.jsinterop.webassembly.7.0.5.nupkg.sha512",
+    "/Users/debugger/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/debugger/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"

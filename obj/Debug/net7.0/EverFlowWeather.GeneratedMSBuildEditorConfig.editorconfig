@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/debugger/Desktop/blazor/EverFlowWeather/Shared/CascadingAppStateProvider.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0Nhc2NhZGluZ0FwcFN0YXRlUHJvdmlkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/debugger/Desktop/blazor/EverFlowWeather/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
