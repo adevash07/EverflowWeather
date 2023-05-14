@@ -214,6 +214,65 @@
         }
       },
       {
+        "HashCode": -402374122,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.Shared.SurveyPrompt",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "EverFlowWeather.Shared",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -33862554,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.Shared.SurveyPrompt",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EverFlowWeather.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.Shared.SurveyPrompt",
+          "Common.TypeNameIdentifier": "SurveyPrompt",
+          "Common.TypeNamespace": "EverFlowWeather.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
         "HashCode": 1813617608,
         "Kind": "Components.Component",
         "Name": "EverFlowWeather.Shared.CascadingAppStateProvider",
@@ -313,65 +372,6 @@
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.None"
-        }
-      },
-      {
-        "HashCode": -402374122,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Shared.SurveyPrompt",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "EverFlowWeather.Shared",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -33862554,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Shared.SurveyPrompt",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EverFlowWeather.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title",
-              "Common.GloballyQualifiedTypeName": "global::System.String"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Shared.SurveyPrompt",
-          "Common.TypeNameIdentifier": "SurveyPrompt",
-          "Common.TypeNamespace": "EverFlowWeather.Shared",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
         }
       },
       {

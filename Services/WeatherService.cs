@@ -1,4 +1,5 @@
 using System.Net.Http.Json;
+using EverFlowWeather.Models;
 
 public class WeatherService
 {
@@ -72,14 +73,4 @@ public class WeatherService
     {
         public List<Weather>? list { get; set; }
     }
-
-    // Define a class that represents a forecast object
-    public class Weather
-    {
-        public double Temperature { get; set; }
-        public string? WeatherDescription { get; set; }
-        public string? IconUrl { get; set; }
-        public DateTime Date { get; set; }
-    }
-
 }

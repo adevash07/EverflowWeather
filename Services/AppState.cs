@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Components;
 using Newtonsoft.Json;
+using EverFlowWeather.Models;
 
 
 namespace EverFlowWeather.Services
@@ -15,21 +16,9 @@ namespace EverFlowWeather.Services
         [JsonProperty]
         public string SearchInput { get; private set; } = "";
 
-        // The property that holds the array of forecast
+        // The property that holds the array of Weather(Forecast)
         [JsonProperty]
         public List<Weather> Forecast { get; private set; } = new List<Weather>();
-     // The class that represents a forecast object
-        public class Weather
-        {
-        [JsonProperty]
-        public double Temperature { get; set; }
-        [JsonProperty]
-        public string WeatherDescription { get; set; } = " ";
-        [JsonProperty]
-        public string IconUrl { get; set; } = " ";
-        [JsonProperty]
-        public DateTime Date { get; set; }
-        }
          // The method that updates the search input
         public void UpdateSearchInput(ComponentBase Source, string SearchInput)
         {
