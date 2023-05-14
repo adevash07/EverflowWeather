@@ -1,6 +1,38 @@
 ﻿@page "/"
 
+@inject WeatherService WeatherService
+
 <PageTitle>Index</PageTitle>
 <div class="index">
-    <Banner /><ForeCast />
+    <Banner />
+    <ForeCast />
 </div>
+
+@code {
+    [CascadingParameter]
+    public CascadingAppStateProvider State { get; set; }
+
+    String City = State.AppState.SearchInput;
+
+    private async Task GetForecastAsync()
+{
+        String City = State.AppState.SearchInput;
+    try
+    {
+        // Get the latitude and longitude for the city
+        var (lat, lon) = await WeatherService.GetLatLonAsync(City);
+
+        // Get the forecast for the latitude and longitude
+        var forecast = await WeatherService.GetForecastAsync(lat, lon);
+
+        // Update the app state with the forecast
+        AppState.Forecast = forecast;
+    }
+    catch (Exception ex)
+    {
+        // Display an error message
+        Console.WriteLine(ex.Message);
+    }
+}
+
+}
