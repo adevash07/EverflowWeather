@@ -51,6 +51,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "bunit": {
+              "target": "Package",
+              "version": "[1.19.14, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
             }
           },
           "imports": [

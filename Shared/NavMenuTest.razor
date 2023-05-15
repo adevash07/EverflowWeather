@@ -1,0 +1,28 @@
+@inherits TestContext;
+
+@code {
+    [Fact]
+    public void NavMenuComponentRendersCorrectly() {
+
+        // Arrange var appState = new AppState();
+        @* var provider = new CascadingAppStateProvider(appState);
+        Services.AddSingleton(provider); *@
+
+        var cut = RenderComponent<NavMenu>();
+
+// Assert
+    cut.MarkupMatches(@<nav class=“nav”> <header class=“nav__brand”> <a href=“#”>Everflow Weather Forecast Dashboard</a></header> <form class=“nav__form”> <input type=“search” class=“nav__search” placeholder=“Search” /> <button type=“submit” class=“nav__searchbtn”><i class=“bi bi-search”></i></button> </form> </nav>); }
+
+//    [Fact] public void NavMenuComponentUpdatesAppStateOnSubmit() {
+    // Arrange var appState = new AppState();
+    @* var provider = new CascadingAppStateProvider(appState); Services.AddSingleton(provider); *@
+
+// Act
+//    var cut = RenderComponent<NavMenu>();
+//    cut.Find(“input”).Change(“New York”);
+//    cut.Find(“form”).Submit();
+
+// Assert
+ //   appState.SearchInput.ShouldBe(“New York”); }
+
+    }
