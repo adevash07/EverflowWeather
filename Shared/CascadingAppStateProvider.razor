@@ -1,6 +1,6 @@
 @using Microsoft.AspNetCore.Components;
 
-<CascadingValue Value="@AppState">
+<CascadingValue Value="@this">
     @ChildContent
 </CascadingValue>
 
@@ -10,5 +10,10 @@
  public RenderFragment? ChildContent { get; set; }
 
  public AppState? AppState { get; set; }
+
+protected override void OnInitialized()
+{
+    AppState = new AppState();
+}
 
 }

@@ -3,7 +3,6 @@
 
 <PageTitle>Index</PageTitle>
 <div class="index">
-    <NavMenu />
     <Banner />
     <ForeCast />
 </div>
@@ -11,25 +10,56 @@
 @code {
     [CascadingParameter]
     public CascadingAppStateProvider? State { get; set; }
-
-    private async Task GetForecastAsync()
-{
-    try
+    protected override void OnInitialized()
     {
-        // Get the latitude and longitude for the city
-        var (lat, lon) = await WeatherService.GetLatLonAsync(State!.AppState!.SearchInput);
-
-        // Get the forecast for the latitude and longitude
-        var forecast = await WeatherService.GetForecastAsync(lat, lon);
-
-        // Update the app state with the forecast
-        State.AppState.UpdateForecast(this, forecast);
+        State!.AppState!.StateChanged += OnStateChanged;
     }
-    catch (Exception ex)
+
+    private async void OnStateChanged(ComponentBase source, string property)
+{
+    if (property == "SearchInput")
     {
-        // Display an error message
-        Console.WriteLine(ex.Message);
+        try
+            {
+                // Get the latitude and longitude for the city
+                var (lat, lon) = await WeatherService.GetLatLonAsync(State!.AppState!.SearchInput);
+
+                // Get the forecast for the latitude and longitude
+                var forecast = await WeatherService.GetForecastAsync(lat, lon);
+
+                Console.WriteLine(forecast);
+
+                // Update the app state with the forecast
+                State.AppState.UpdateForecast(this, forecast);
+            }
+            catch (Exception ex)
+            {
+                // Display an error message
+                Console.WriteLine(ex.Message);
+            }
+        // Update the UI
+        StateHasChanged();
     }
 }
+
+    @* private async Task GetForecastAsync()
+        {
+            try
+            {
+                // Get the latitude and longitude for the city
+                var (lat, lon) = await WeatherService.GetLatLonAsync(State!.AppState!.SearchInput);
+
+                // Get the forecast for the latitude and longitude
+                var forecast = await WeatherService.GetForecastAsync(lat, lon);
+
+                // Update the app state with the forecast
+                State.AppState.UpdateForecast(this, forecast);
+            }
+            catch (Exception ex)
+            {
+                // Display an error message
+                Console.WriteLine(ex.Message);
+            }
+        } *@
 
 }

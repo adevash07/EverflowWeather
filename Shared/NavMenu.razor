@@ -2,23 +2,30 @@
  <header class="nav__brand">
  <a href="#">Everflow Weather Forecast Dashboard</a></header>
  <form class="nav__form" @onsubmit="@OnSubmit">
-    <input @bind-value="@State!.AppState!.SearchInput" type="search" class="nav__search" placeholder="Search" />
+    <input @bind-value="@SearchInput" type="search" class="nav__search" placeholder="Search" />
     <button type="submit" class="nav__searchbtn"><i class="bi bi-search"></i></button>
 </form>
 </nav>
 
 @code {
- [CascadingParameter]
- public CascadingAppStateProvider? State { get; set; }
+    public string SearchInput { get; set; } = "";
 
- @* public class SearchModel
- {
-    public strying? search {get; set;}
- } *@
+    [CascadingParameter]
+    public CascadingAppStateProvider? State { get; set; }
+
+
+    protected override void OnInitialized()
+    {
+        // Initialize the SearchInput field using the State property
+        Console.WriteLine(State?.AppState?.SearchInput);
+        SearchInput = State?.AppState?.SearchInput ?? "";
+    }
+
 
 private void OnSubmit()
  {
      // Update the app state with the search input value
-     State!.AppState!.UpdateSearchInput(this, State.AppState.SearchInput);
+     Console.WriteLine(SearchInput);
+     State!.AppState!.UpdateSearchInput(this, SearchInput);
  }
 }

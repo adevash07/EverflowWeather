@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZyFgbpRXStUgaafPlefnmif/7bPqy3sMKcJ37UWmL/5vMMVeCSPpI1r+ibOFNDMFzgZsHZ8ZGob9pshFgrviFQ==",
+  "dgSpecHash": "pRBDLzM+FR+NiMPzx0aWoHz775/vMgQ0JgjlJk1x2Dn1Q+3FE7C2yoIA7VNZYbbMUvRZVt4PCUdBHRvPFZn4wQ==",
   "success": true,
   "projectFilePath": "/Users/debugger/Desktop/blazor/EverFlowWeather/EverFlowWeather.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/debugger/.nuget/packages/bunit/1.19.14/bunit.1.19.14.nupkg.sha512",
     "/Users/debugger/.nuget/packages/bunit.core/1.19.14/bunit.core.1.19.14.nupkg.sha512",
     "/Users/debugger/.nuget/packages/bunit.web/1.19.14/bunit.web.1.19.14.nupkg.sha512",
+    "/Users/debugger/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.aspnetcore.authorization/7.0.5/microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.aspnetcore.components/7.0.5/microsoft.aspnetcore.components.7.0.5.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.5/microsoft.aspnetcore.components.analyzers.7.0.5.nupkg.sha512",
@@ -20,6 +21,7 @@
     "/Users/debugger/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.0/microsoft.aspnetcore.components.webassembly.authentication.7.0.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/7.0.5/microsoft.aspnetcore.components.webassembly.devserver.7.0.5.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.aspnetcore.metadata/7.0.5/microsoft.aspnetcore.metadata.7.0.5.nupkg.sha512",
+    "/Users/debugger/.nuget/packages/microsoft.codecoverage/17.5.0/microsoft.codecoverage.17.5.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
@@ -39,11 +41,15 @@
     "/Users/debugger/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.jsinterop/7.0.5/microsoft.jsinterop.7.0.5.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.jsinterop.webassembly/7.0.5/microsoft.jsinterop.webassembly.7.0.5.nupkg.sha512",
+    "/Users/debugger/.nuget/packages/microsoft.net.test.sdk/17.5.0/microsoft.net.test.sdk.17.5.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/Users/debugger/.nuget/packages/microsoft.testplatform.objectmodel/17.5.0/microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
+    "/Users/debugger/.nuget/packages/microsoft.testplatform.testhost/17.5.0/microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
-    "/Users/debugger/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/debugger/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/debugger/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/runtime.any.system.collections/4.3.0/runtime.any.system.collections.4.3.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/runtime.any.system.diagnostics.tools/4.3.0/runtime.any.system.diagnostics.tools.4.3.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/runtime.any.system.diagnostics.tracing/4.3.0/runtime.any.system.diagnostics.tracing.4.3.0.nupkg.sha512",
@@ -107,6 +113,7 @@
     "/Users/debugger/.nuget/packages/system.reflection.emit.ilgeneration/4.3.0/system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/system.reflection.emit.lightweight/4.3.0/system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/system.reflection.extensions/4.3.0/system.reflection.extensions.4.3.0.nupkg.sha512",
+    "/Users/debugger/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/system.reflection.typeextensions/4.3.0/system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "/Users/debugger/.nuget/packages/system.resources.resourcemanager/4.3.0/system.resources.resourcemanager.4.3.0.nupkg.sha512",
@@ -142,7 +149,8 @@
     "/Users/debugger/.nuget/packages/xunit.assert/2.4.2/xunit.assert.2.4.2.nupkg.sha512",
     "/Users/debugger/.nuget/packages/xunit.core/2.4.2/xunit.core.2.4.2.nupkg.sha512",
     "/Users/debugger/.nuget/packages/xunit.extensibility.core/2.4.2/xunit.extensibility.core.2.4.2.nupkg.sha512",
-    "/Users/debugger/.nuget/packages/xunit.extensibility.execution/2.4.2/xunit.extensibility.execution.2.4.2.nupkg.sha512"
+    "/Users/debugger/.nuget/packages/xunit.extensibility.execution/2.4.2/xunit.extensibility.execution.2.4.2.nupkg.sha512",
+    "/Users/debugger/.nuget/packages/xunit.runner.visualstudio/2.4.5/xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
   "logs": []
 }

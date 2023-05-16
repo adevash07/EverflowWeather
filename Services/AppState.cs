@@ -14,7 +14,7 @@ namespace EverFlowWeather.Services
 
         // The property that holds the search input
         [JsonProperty]
-        public string SearchInput { get; set; } = "";
+        public string SearchInput { get; set; } = "Default Value";
 
         // The property that holds the array of Weather(Forecast)
         [JsonProperty]
