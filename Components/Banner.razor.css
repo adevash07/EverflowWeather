@@ -20,6 +20,8 @@
   justify-content: space-between;
   align-items: center;
   max-width: 720px;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .banner__right {
@@ -78,4 +80,57 @@
 .icon {
   color: white;
   font-size: 1.5rem;
+}
+
+/* Styles for smaller screens (max-width: 600px) */
+@media (max-width: 785px) {
+  .banner__content {
+    height: auto; /* adjust the height to fit the content */
+  }
+
+  .banner__inner {
+    flex-flow: column-reverse wrap; /* stack the elements vertically */
+    max-width: none; /* remove the max-width constraint */
+  }
+
+  .banner__left {
+    flex: 1 1 auto; /* allow the right section to grow and shrink */
+    width: 70%;
+  }
+
+  .banner__right {
+    flex: 1 1 auto; /* allow the right section to grow and shrink */
+    width: 70%;
+    padding: 1rem;
+  }
+
+  .banner__item--1 {
+    flex: none; /* remove the flex properties */
+  }
+
+  .banner__grid {
+    grid-template-columns: repeat(1, 1fr); /* use one column instead of two */
+    gap: 0.5rem; /* reduce the gap */
+    padding: 0.5rem; /* reduce the padding */
+    box-shadow: none; /* remove the shadow */
+  }
+
+  .banner__title {
+    font-size: var(--h3); /* reduce the font size */
+  }
+
+  .banner__dates {
+    flex-flow: column wrap; /* stack the dates vertically */
+    gap: 0.5rem; /* reduce the gap */
+  }
+
+  .iconCon {
+    width: 2rem; /* reduce the icon container width */
+    height: 2rem; /* reduce the icon container height */
+    padding: 0.05rem; /* reduce the padding */
+  }
+
+  .icon {
+    font-size: 1rem; /* reduce the icon size */
+  }
 }

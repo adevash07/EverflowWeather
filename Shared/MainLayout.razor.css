@@ -7,3 +7,11 @@
   padding: 0;
   max-width: 720px;
 }
+
+@media (max-width: 785px) {
+  .page__header {
+    max-width: unset;
+    width: 80%;
+    margin: 0 auto;
+  }
+}

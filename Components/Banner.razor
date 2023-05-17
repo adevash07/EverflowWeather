@@ -35,8 +35,17 @@
         </div>
        </div>
        <div class="banner__left">
-            <WeatherCard />
+            <WeatherCard
+                weather="@MainForecast?.Weather?[0]"
+                main="@MainForecast?.Main"
+                dtTxt="@MainForecast?.DtTxt"
+             />
        </div>
     </div>
     </div>
 </div>
+
+@code {
+    [Parameter]
+    public Forecast? MainForecast {get; set;}
+}

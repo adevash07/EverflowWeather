@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+
+*.json
+# ignore all files with .json extension
+**/appsettings.json
+# ignore all files named appsettings.json in any folder
+config/*
+# ignore all files in the config folder
+wwwroot/appsettings.json
+
 # User-specific files
 *.rsuser
 *.suo

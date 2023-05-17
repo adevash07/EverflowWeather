@@ -31,43 +31,11 @@ Follow these steps to set up the app in Visual Studio Code:
 2. Open Visual Studio Code and select "File" > "Open Folder."
 3. Navigate to the cloned repository and select the folder to open it in Visual Studio Code.
 4. Restore the NuGet packages for the solution by running the command `dotnet restore` in the terminal or using the IDE's built-in tool.
-5. Set the `EverflowWeather.Server` project as the startup project by opening the `launch.json` file in the `.vscode` folder and adding the following configuration:
+5. To run the application, run Dotnet watch run in the terminal.
 
-```json
-"configurations": [
-    {
-        "name": "EverflowWeather.Server",
-        "type": "coreclr",
-        "request": "launch",
-        "preLaunchTask": "build",
-        "program": "${workspaceFolder}/EverflowWeather.Server/bin/Debug/net6.0/EverflowWeather.Server.dll",
-        "args": [],
-        "cwd": "${workspaceFolder}/EverflowWeather.Server",
-        "stopAtEntry": false,
-        "console": "internalConsole"
-    }
-]
+```bash
+    Dotnet watch run
 ```
-
-6. Start the server project by pressing `F5` or selecting "Debug" > "Start Debugging" from the menu. This will start the server project and watch for any changes in the code.
-
-7. Launch the Blazor app in your browser by opening the `launch.json` file again and adding the following configuration:
-
-```json
-"configurations": [
-    {
-        "name": "EverflowWeather.Client",
-        "type": "blazorwasm",
-        "request": "launch",
-        "cwd": "${workspaceFolder}/EverflowWeather.Client",
-        "stopAtEntry": false,
-        "webRoot": "${workspaceFolder}/EverflowWeather.Client/wwwroot"
-    }
-]
-```
-
-8. Press `F5` or select "Debug" > "Start Debugging" from the menu to launch the Blazor app in your browser.
-9. You can now explore and modify the code of the Blazor app locally. To see the changes, you need to refresh the browser.
 
 ## Conclusion
 
