@@ -1,12 +1,27 @@
 <div class="forecast container-fluid">
     <div class="forecast__grid container-lg">
-        @foreach (var item in arr)
-        {
-        <WeatherCard customClass="forecast" />
+        @if (forecast != null) {
+            var count = 1;
+            @foreach (var item in forecast)
+            {
+               @if(count < 5) {
+                    <WeatherCard customClass="forecast"
+                    weather="@item?.Weather?[0]"
+                    main="@item?.Main"
+                    dtTxt="@item?.DtTxt"
+                />
+               }
+            count += count + 1;
+            }
         }
+
     </div>
 </div>
 
 @code {
+
+    [Parameter]
+    public List<Forecast>? forecast {get; set;}
     private int[] arr = new int[4];
+
 }

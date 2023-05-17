@@ -30,6 +30,8 @@ public class WeatherService
         // Check if the response is not null or empty
         if (response != null && response.Length > 0)
         {
+            Console.WriteLine(response[0].lon);
+            Console.WriteLine(response[0].lat);
             // Return the first item's latitude and longitude as a tuple
             return (response[0].lat, response[0].lon);
         }
@@ -40,18 +42,19 @@ public class WeatherService
         }
     }
     // Define a method that gets the five day weather forecast for a latitude and longitude
-    public async Task<List<Weather>> GetForecastAsync(double lat, double lon)
+    public async Task<List<Forecast>> GetForecastAsync(double lat, double lon)
     {
         // Build the request URL with the latitude, longitude and API key
         var requestUrl = $"{BaseAddress}/data/2.5/forecast?lat={lat}&lon={lon}&appid={ApiKey}";
 
         // Make a GET request and get the response as a JSON object
-        var response = await _httpClient.GetFromJsonAsync<Forecast>(requestUrl);
+        var response = await _httpClient.GetFromJsonAsync<root>(requestUrl);
 
         // Check if the response is not null
         if (response != null && response.list != null)
         {
             // Return the list of forecasts as a list of Forecast objects
+            Console.WriteLine(response.list[0]);
             return response.list;
         }
         else
@@ -70,8 +73,8 @@ public class WeatherService
     }
 
     // Define a class that represents the forecast response object
-    public class Forecast
-    {
-        public List<Weather>? list { get; set; }
-    }
+    // public class Forecast
+    // {
+    //     public List<Weather>? list { get; set; }
+    // }
 }

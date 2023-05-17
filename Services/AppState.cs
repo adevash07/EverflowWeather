@@ -14,11 +14,11 @@ namespace EverFlowWeather.Services
 
         // The property that holds the search input
         [JsonProperty]
-        public string SearchInput { get; set; } = "Default Value";
+        public string SearchInput { get; set; } = "london";
 
         // The property that holds the array of Weather(Forecast)
         [JsonProperty]
-        public List<Weather> Forecast { get; set; } = new List<Weather>();
+        public List<Forecast> List { get; set; } = new List<Forecast>();
          // The method that updates the search input
         public void UpdateSearchInput(ComponentBase Source, string SearchInput)
         {
@@ -27,9 +27,9 @@ namespace EverFlowWeather.Services
         }
 
         // The method that updates the array of forecast
-        public void UpdateForecast(ComponentBase Source, List<Weather> Forecast)
+        public void UpdateForecast(ComponentBase Source, List<Forecast> Forecast)
         {
-        this.Forecast = Forecast;
+        this.List = Forecast;
         NotifyStateChanged(Source, "Forecast");
         }
 

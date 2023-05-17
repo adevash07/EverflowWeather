@@ -1,10 +1,11 @@
-﻿@page "/"
+﻿@implements IDisposable
+@page "/"
 @inject WeatherService WeatherService
 
 <PageTitle>Index</PageTitle>
 <div class="index">
-    <Banner />
-    <ForeCast />
+    <Banner MainForecast="@State?.AppState?.List?[0]"  />
+    <ForeCast forecast="@State?.AppState?.List" />
 </div>
 
 @code {
@@ -25,7 +26,7 @@
                 var (lat, lon) = await WeatherService.GetLatLonAsync(State!.AppState!.SearchInput);
 
                 // Get the forecast for the latitude and longitude
-                var forecast = await WeatherService.GetForecastAsync(lat, lon);
+                var  forecast = await WeatherService.GetForecastAsync(lat,lon);
 
                 Console.WriteLine(forecast);
 
@@ -61,5 +62,11 @@
                 Console.WriteLine(ex.Message);
             }
         } *@
+
+    void IDisposable.Dispose()
+            {
+            State!.AppState!.StateChanged -= OnStateChanged;
+
+            }
 
 }
