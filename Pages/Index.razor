@@ -11,16 +11,17 @@
 @code {
     [CascadingParameter]
     public CascadingAppStateProvider? State { get; set; }
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync() // use async Task instead of void
     {
-        State!.AppState!.StateChanged += OnStateChanged;
+        State!.AppState!.StateChanged += async (source, property) => await OnStateChanged(source, property); // use a lambda expression
+        await OnStateChanged(this, "SearchInput"); // call OnStateChanged with "SearchInput" as the property argument
     }
 
-    private async void OnStateChanged(ComponentBase source, string property)
-{
-    if (property == "SearchInput")
+    private async Task OnStateChanged(ComponentBase source, string property)
     {
-        try
+        if (property == "SearchInput")
+        {
+            try
             {
                 // Get the latitude and longitude for the city
                 var (lat, lon) = await WeatherService.GetLatLonAsync(State!.AppState!.SearchInput);
@@ -40,33 +41,12 @@
             }
         // Update the UI
         StateHasChanged();
+        }
     }
-}
-
-    @* private async Task GetForecastAsync()
-        {
-            try
-            {
-                // Get the latitude and longitude for the city
-                var (lat, lon) = await WeatherService.GetLatLonAsync(State!.AppState!.SearchInput);
-
-                // Get the forecast for the latitude and longitude
-                var forecast = await WeatherService.GetForecastAsync(lat, lon);
-
-                // Update the app state with the forecast
-                State.AppState.UpdateForecast(this, forecast);
-            }
-            catch (Exception ex)
-            {
-                // Display an error message
-                Console.WriteLine(ex.Message);
-            }
-        } *@
 
     void IDisposable.Dispose()
-            {
-            State!.AppState!.StateChanged -= OnStateChanged;
+    {
+       State!.AppState!.StateChanged -= async (source, property) => await OnStateChanged(source, property); // use a lambda expression
 
-            }
-
+    }
 }

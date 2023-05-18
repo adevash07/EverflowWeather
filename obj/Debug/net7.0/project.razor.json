@@ -9,43 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1399786314,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Pages.Index",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "EverFlowWeather.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -506534095,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Pages.Index",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EverFlowWeather.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "EverFlowWeather.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 1308365728,
         "Kind": "Components.Component",
         "Name": "EverFlowWeather.Shared.CascadingAppStateProvider",
@@ -350,43 +313,6 @@
         }
       },
       {
-        "HashCode": -204044022,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.App",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "EverFlowWeather",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1959546312,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.App",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EverFlowWeather.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "EverFlowWeather",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -1013821291,
         "Kind": "Components.Component",
         "Name": "EverFlowWeather.Components.ForeCast",
@@ -440,65 +366,6 @@
         "Metadata": {
           "Common.TypeName": "EverFlowWeather.Components.ForeCast",
           "Common.TypeNameIdentifier": "ForeCast",
-          "Common.TypeNamespace": "EverFlowWeather.Components",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 384285532,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Components.Banner",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Banner"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "MainForecast",
-            "TypeName": "EverFlowWeather.Models.Forecast",
-            "Metadata": {
-              "Common.PropertyName": "MainForecast",
-              "Common.GloballyQualifiedTypeName": "global::EverFlowWeather.Models.Forecast"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Components.Banner",
-          "Common.TypeNameIdentifier": "Banner",
-          "Common.TypeNamespace": "EverFlowWeather.Components",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1134776916,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Components.Banner",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EverFlowWeather.Components.Banner"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "MainForecast",
-            "TypeName": "EverFlowWeather.Models.Forecast",
-            "Metadata": {
-              "Common.PropertyName": "MainForecast",
-              "Common.GloballyQualifiedTypeName": "global::EverFlowWeather.Models.Forecast"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Components.Banner",
-          "Common.TypeNameIdentifier": "Banner",
           "Common.TypeNamespace": "EverFlowWeather.Components",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
@@ -613,6 +480,139 @@
           "Common.TypeName": "EverFlowWeather.Components.WeatherCard",
           "Common.TypeNameIdentifier": "WeatherCard",
           "Common.TypeNamespace": "EverFlowWeather.Components",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 384285532,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.Components.Banner",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Banner"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "MainForecast",
+            "TypeName": "EverFlowWeather.Models.Forecast",
+            "Metadata": {
+              "Common.PropertyName": "MainForecast",
+              "Common.GloballyQualifiedTypeName": "global::EverFlowWeather.Models.Forecast"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.Components.Banner",
+          "Common.TypeNameIdentifier": "Banner",
+          "Common.TypeNamespace": "EverFlowWeather.Components",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1134776916,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.Components.Banner",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EverFlowWeather.Components.Banner"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "MainForecast",
+            "TypeName": "EverFlowWeather.Models.Forecast",
+            "Metadata": {
+              "Common.PropertyName": "MainForecast",
+              "Common.GloballyQualifiedTypeName": "global::EverFlowWeather.Models.Forecast"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.Components.Banner",
+          "Common.TypeNameIdentifier": "Banner",
+          "Common.TypeNamespace": "EverFlowWeather.Components",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -204044022,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.App",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "EverFlowWeather",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1959546312,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.App",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EverFlowWeather.App"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.App",
+          "Common.TypeNameIdentifier": "App",
+          "Common.TypeNamespace": "EverFlowWeather",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1399786314,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.Pages.Index",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "EverFlowWeather.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -506534095,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.Pages.Index",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EverFlowWeather.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "EverFlowWeather.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
