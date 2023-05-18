@@ -52,5 +52,5 @@
 }
 
 .nav__searchbtn:active {
-  transform: scale(0.95); /* make the button slightly smaller */
+  transform: scale(0.85); /* make the button slightly smaller */
 }
