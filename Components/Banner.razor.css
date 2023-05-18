@@ -19,8 +19,7 @@
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  max-width: 720px;
-  gap: 1rem;
+  max-width: 800px;
   padding: 1rem;
 }
 
@@ -34,7 +33,10 @@
   flex: 1 1 100%;
   display: flex;
   flex-flow: column wrap;
-  gap: 1rem;
+}
+
+.banner__item--2 {
+  flex: 2 1 100%;
 }
 
 .banner__title {
@@ -44,7 +46,6 @@
 .banner__dates {
   display: flex;
   flex-flow: row wrap;
-  gap: 1rem;
 }
 
 .banner__grid {

@@ -5,31 +5,29 @@
        <div class="banner__right">
         <div class="banner__item banner__item--1"
         >
-            <h3 class="banner__title"> Middlesborough</h3>
+            <h3 class="banner__title"> @State?.AppState?.SearchInput</h3>
             <div class="banner__dates">
-                <p class="banner__text">Monday, May 23</p>
-                <p class="banner__text">Updated As Of 2:45pm</p>
+                <p class="banner__text">@MainForecast?.DtTxt</p>
+                <p class="banner__text">@MainForecast?.DtTxt</p>
             </div>
         </div>
         <div class="banner__item banner__item--2">
             <div class="banner__grid">
                 <div class="banner__gridItem banner__gridItem--1">
                     <p class="iconCon"><img class="icon" src="assets/windIcon.svg" /></p>
-                    <p>
-                        Wind 3km/h3
-                    </p>
+                    <p>Wind + @MainForecast?.Wind?.speed km/h</p>
                 </div>
                 <div class="banner__gridItem banner__gridItem--2">
                     <p class="iconCon"><img class="icon" src="assets/windIcon.svg" /></p>
-                    <p>Wind 3km/h</p>
+                    <p>Pressure @MainForecast?.Main?.pressure</p>
                 </div>
                 <div class="banner__gridItem banner__gridItem--3">
                     <p class="iconCon"><img class="icon" src="assets/windIcon.svg" /></p>
-                    <p>Rain 78%</p>
+                    <p>Rain @MainForecast?.Rain?.__invalid_name__3h%</p>
                 </div>
                 <div class="banner__gridItem banner__gridItem--4">
                     <p class="iconCon"><img class="icon" src="assets/windIcon.svg" /></p>
-                    <p>Rain 78%</p>
+                    <p>Humidity @MainForecast?.Main?.humidity%</p>
                 </div>
             </div>
         </div>
@@ -48,4 +46,7 @@
 @code {
     [Parameter]
     public Forecast? MainForecast {get; set;}
+
+    [CascadingParameter]
+    public CascadingAppStateProvider? State { get; set; }
 }

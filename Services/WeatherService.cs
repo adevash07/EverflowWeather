@@ -1,5 +1,4 @@
 using System.Net.Http.Json;
-using Microsoft.Extensions.Configuration;
 using EverFlowWeather.Models;
 
 public class WeatherService
@@ -63,18 +62,4 @@ public class WeatherService
             throw new Exception("No results found for the coordinates");
         }
     }
-
-    // Define a class that represents the geo response object
-    public class GeoResponse
-    {
-        public string? name { get; set; }
-        public double lat { get; set; }
-        public double lon { get; set; }
-    }
-
-    // Define a class that represents the forecast response object
-    // public class Forecast
-    // {
-    //     public List<Weather>? list { get; set; }
-    // }
 }

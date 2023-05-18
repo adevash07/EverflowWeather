@@ -4,14 +4,14 @@
             var count = 1;
             @foreach (var item in forecast)
             {
-               @if(count < 5) {
+               @if(count < 6) {
                     <WeatherCard customClass="forecast"
                     weather="@item?.Weather?[0]"
                     main="@item?.Main"
                     dtTxt="@item?.DtTxt"
                 />
                }
-            count += count + 1;
+            count++;
             }
         }
 

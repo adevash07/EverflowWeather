@@ -44,3 +44,13 @@
   margin: 0.3rem;
   color: white;
 }
+
+.nav__searchbtn:hover {
+  background-color: var(
+    --primary-dark
+  ); /* use a darker shade of primary color */
+}
+
+.nav__searchbtn:active {
+  transform: scale(0.85); /* make the button slightly smaller */
+}
