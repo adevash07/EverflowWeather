@@ -313,65 +313,6 @@
         }
       },
       {
-        "HashCode": -1013821291,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Components.ForeCast",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ForeCast"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "forecast",
-            "TypeName": "System.Collections.Generic.List<EverFlowWeather.Models.Forecast>",
-            "Metadata": {
-              "Common.PropertyName": "forecast",
-              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.List<global::EverFlowWeather.Models.Forecast>"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Components.ForeCast",
-          "Common.TypeNameIdentifier": "ForeCast",
-          "Common.TypeNamespace": "EverFlowWeather.Components",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1076507350,
-        "Kind": "Components.Component",
-        "Name": "EverFlowWeather.Components.ForeCast",
-        "AssemblyName": "EverFlowWeather",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EverFlowWeather.Components.ForeCast"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "forecast",
-            "TypeName": "System.Collections.Generic.List<EverFlowWeather.Models.Forecast>",
-            "Metadata": {
-              "Common.PropertyName": "forecast",
-              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.List<global::EverFlowWeather.Models.Forecast>"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "EverFlowWeather.Components.ForeCast",
-          "Common.TypeNameIdentifier": "ForeCast",
-          "Common.TypeNamespace": "EverFlowWeather.Components",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 1648274663,
         "Kind": "Components.Component",
         "Name": "EverFlowWeather.Components.WeatherCard",
@@ -479,6 +420,65 @@
         "Metadata": {
           "Common.TypeName": "EverFlowWeather.Components.WeatherCard",
           "Common.TypeNameIdentifier": "WeatherCard",
+          "Common.TypeNamespace": "EverFlowWeather.Components",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1013821291,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.Components.ForeCast",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ForeCast"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "forecast",
+            "TypeName": "System.Collections.Generic.List<EverFlowWeather.Models.Forecast>",
+            "Metadata": {
+              "Common.PropertyName": "forecast",
+              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.List<global::EverFlowWeather.Models.Forecast>"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.Components.ForeCast",
+          "Common.TypeNameIdentifier": "ForeCast",
+          "Common.TypeNamespace": "EverFlowWeather.Components",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1076507350,
+        "Kind": "Components.Component",
+        "Name": "EverFlowWeather.Components.ForeCast",
+        "AssemblyName": "EverFlowWeather",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EverFlowWeather.Components.ForeCast"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "forecast",
+            "TypeName": "System.Collections.Generic.List<EverFlowWeather.Models.Forecast>",
+            "Metadata": {
+              "Common.PropertyName": "forecast",
+              "Common.GloballyQualifiedTypeName": "global::System.Collections.Generic.List<global::EverFlowWeather.Models.Forecast>"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "EverFlowWeather.Components.ForeCast",
+          "Common.TypeNameIdentifier": "ForeCast",
           "Common.TypeNamespace": "EverFlowWeather.Components",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
